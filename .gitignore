@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Tauri build files
+src-tauri/target/release/
+src-tauri/gen/
+
+# Rust
+target/
+Cargo.lock
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python (if your AI backend uses Python)
+__pycache__/
+*.pyc
+.venv/
+
+# AI data
+uploads/
+documents/
+models/
+vectorstore/
+chroma_db/

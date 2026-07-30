@@ -1,0 +1,20 @@
+{
+  "productName": "Netlancer",
+  "version": "1.0.0",
+  "identifier": "com.netlancer.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis",
+      "msi"
+    ],
+    "icon": [
+      "icons/icon.ico"
+    ]
+  }
+}
